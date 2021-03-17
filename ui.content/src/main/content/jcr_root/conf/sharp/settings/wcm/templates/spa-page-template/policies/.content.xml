@@ -2,21 +2,28 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:policy="sharp/components/page/policy_spa"
+        cq:lastModified="{Date}2017-12-07T17:06:46.349+05:30"
+        cq:lastModifiedBy="admin"
+        cq:policy="sharp/components/spa/default"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
             cq:policy="wcm/foundation/components/responsivegrid/spa-default"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/core/components/policies/mapping">
-            <responsivegrid
-                cq:policy="wcm/foundation/components/responsivegrid/spa-default"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping"/>
             <experiencefragment-header
                 cq:policy="sharp/components/experiencefragment/policy_header"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping"/>                    
+                sling:resourceType="wcm/core/components/policies/mapping"/> 
+            <container
+                cq:policy="sharp/components/container/policy_1574694950110"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <container
+                    cq:policy="sharp/components/container/policy_1574694950110"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            </container>                                  
         </root>
     </jcr:content>
 </jcr:root>

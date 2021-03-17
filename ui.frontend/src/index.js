@@ -15,3 +15,6 @@
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 import React from 'react';
+import ReactDOM from 'react-dom';
+import ReactHabitat from 'react-habitat';
+import App from './App'; 

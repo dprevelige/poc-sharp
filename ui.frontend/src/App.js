@@ -1,6 +1,6 @@
 import ReactHabitat                 from 'react-habitat';
-import CardComp           from 'components/CardComp';
-import TitleComp          from 'components/TitleComp';
+import CardComp           from './components/CardComp';
+import TitleComp          from './components/TitleComp';
 
 class App extends ReactHabitat.Bootstrapper {
     constructor(){

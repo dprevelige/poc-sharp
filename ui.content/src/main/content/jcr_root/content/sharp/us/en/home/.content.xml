@@ -10,18 +10,15 @@
         sling:resourceType="sharp/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
+            sling:resourceType="sharp/components/container">
+            <container
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <text
+                sling:resourceType="sharp/components/container">
+                <container
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="sharp/components/text"
-                    text="&lt;p>Hello World!&lt;/p>"
-                    textIsRich="true">
-                    <cq:responsive jcr:primaryType="nt:unstructured"/>
-                </text>
-            </responsivegrid>
+                    sling:resourceType="sharp/components/container">
+                </container>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>
