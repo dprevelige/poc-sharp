@@ -15,6 +15,7 @@
                 sling:resourceType="sharp/components/container">
                 <container
                     jcr:primaryType="nt:unstructured"
+                    layout="responsiveGrid"
                     sling:resourceType="sharp/components/container">
                 </container>
             </container>
